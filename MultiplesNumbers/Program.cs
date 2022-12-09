@@ -6,11 +6,11 @@ string enter = Console.ReadLine();
 bool isParse = int.TryParse(enter, out var numbers);
 if (isParse)
 {
-    number.Func(numbers);
+    number.CheckingForTheMultiplicityOfANumber(numbers);
 }
 else
 {
     Console.WriteLine();
-    Console.WriteLine("Свободен");
+    Console.WriteLine("Ошибка");
     Console.WriteLine();
 }

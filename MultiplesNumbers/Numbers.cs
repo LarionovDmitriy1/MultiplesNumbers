@@ -8,7 +8,7 @@ namespace MultiplesNumbers;
 
 public class Numbers
 {
-    public void Func(int number)
+    public void CheckingForTheMultiplicityOfANumber(int number)
     {
         int summ = 0;
         for (int i = 1; i < number; i++)
